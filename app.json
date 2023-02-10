@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "expo-image-svg-bug",
+    "slug": "expo-image-svg-bug",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
