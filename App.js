@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
+import { Image } from 'expo-image';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Image
+          source={require('./assets/forgot-password.svg')}
+          style={[{ height: 250, aspectRatio: 1, borderWidth: 1  }]}
+          contentFit="contain"
+        />
     </View>
   );
 }
